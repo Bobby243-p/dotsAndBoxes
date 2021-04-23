@@ -1,0 +1,71 @@
+body {
+    padding: 10px;
+    margin: 0;   
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+}
+
+
+.player1{
+	margin: 0 auto;
+	color: rgb(253, 37, 8);
+	font-weight: bolder;
+	font-size: 20px;
+
+}
+
+.player2{
+	margin: 0 auto;
+	
+	color: rgb(47, 12, 248);
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+
+.box{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: rgb(243, 239, 239);
+	line-height: 50px;
+}
+
+
+
+
+.dot{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	background-color: rgb(8, 8, 8);		
+	z-index: 1000;	
+}
+
+.line{
+	position: absolute;
+	background-color: whitesmoke;	
+	cursor: pointer;
+	z-index: 1;	
+
+}
+
+.lineh{
+	height: 5px;
+	width: 50px;
+}
+
+.linev{
+	height: 50px;
+	width: 5px;
+}
+
+.line:hover{
+	background-color: #373737;
+}
+
+.line-active{
+	background-color: #373737;
+}
+
